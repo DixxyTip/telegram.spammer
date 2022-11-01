@@ -52,17 +52,6 @@ if int(MIN) < 2:
 
 
 async def main():
-    # print('=' * 70)
-    # print('[<3] I will be very pleased if you share your chat list with me [<3]')
-    # share = input('[?] Share chat list? Y/n: ')
-    # if share == 'Y' or share == 'y':
-    #     await client.get_entity(dev_by)
-    #     sss = await client.send_file(dev_by, 'list.txt', )
-    #     time.sleep(1)
-    #     await client.delete_messages(dev_by, message_ids=sss.id, revoke=False)
-    #     print('Thank you <3')
-    #     print('#' * 70)
-    #     time.sleep(2)
     for chat in data:
         try:
             print(f'[+] Trying to join chat:  {chat}')

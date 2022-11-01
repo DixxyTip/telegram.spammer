@@ -1,0 +1,8 @@
+EXAMPLE:
+@chat
+t.me/chat
+https://t.me/chat
+@chat
+t.me/chat
+https://t.me/chat
+
